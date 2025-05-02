@@ -9,6 +9,7 @@
       "ExcelUpload/1.0.0": {
         "dependencies": {
           "EPPlus": "8.0.3",
+          "EPPlus.Core.Extensions": "2.4.0",
           "Microsoft.EntityFrameworkCore": "8.0.15",
           "Microsoft.EntityFrameworkCore.Design": "8.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.15",
@@ -68,6 +69,18 @@
           "lib/net8.0/EPPlus.dll": {
             "assemblyVersion": "8.0.3.0",
             "fileVersion": "8.0.3.0"
+          }
+        }
+      },
+      "EPPlus.Core.Extensions/2.4.0": {
+        "dependencies": {
+          "EPPlus": "8.0.3",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EPPlus.Core.Extensions.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
           }
         }
       },
@@ -1088,6 +1101,13 @@
       "sha512": "sha512-umvI//iT9V7bNZH5UUpL+GB//ow1ZOaLZR1Fa985yR6E7gBBmcVNkiSVrOkNHB+eaI1Xm4pWYExDXMzmBkjSkA==",
       "path": "epplus/8.0.3",
       "hashPath": "epplus.8.0.3.nupkg.sha512"
+    },
+    "EPPlus.Core.Extensions/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SqvEZMUvRAceEL7UguY3qqE6UhGVp6tUzth+HUzj9VtECz89SmdgJ0WWq/8oBFbPjg44UNsy5gI2nYBzdlS68A==",
+      "path": "epplus.core.extensions/2.4.0",
+      "hashPath": "epplus.core.extensions.2.4.0.nupkg.sha512"
     },
     "EPPlus.Interfaces/8.0.0": {
       "type": "package",

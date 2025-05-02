@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\filessss\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj": {}
+    "E:\\filessss\\excelFileUpload\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj": {}
   },
   "projects": {
-    "E:\\filessss\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj": {
+    "E:\\filessss\\excelFileUpload\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\filessss\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj",
+        "projectUniqueName": "E:\\filessss\\excelFileUpload\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj",
         "projectName": "ExcelUpload",
-        "projectPath": "E:\\filessss\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj",
+        "projectPath": "E:\\filessss\\excelFileUpload\\ExcelUpload\\ExcelUpload\\ExcelUpload.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\filessss\\ExcelUpload\\ExcelUpload\\obj\\",
+        "outputPath": "E:\\filessss\\excelFileUpload\\ExcelUpload\\ExcelUpload\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "EPPlus": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "EPPlus.Core.Extensions": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

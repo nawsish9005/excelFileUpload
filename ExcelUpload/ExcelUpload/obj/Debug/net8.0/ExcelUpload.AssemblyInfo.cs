@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelUpload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4de800615965e087529e3de6b9f1d379352e5e95")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelUpload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelUpload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
