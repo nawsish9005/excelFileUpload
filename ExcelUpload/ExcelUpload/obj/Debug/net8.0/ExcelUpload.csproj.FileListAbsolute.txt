@@ -159,8 +159,6 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\ExcelUpload
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\ExcelUpload.pdb
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Azure.Core.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Azure.Identity.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\EPPlus.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\EPPlus.Interfaces.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Humanizer.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -174,8 +172,6 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.E
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
@@ -190,7 +186,6 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.I
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.OpenApi.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
@@ -211,9 +206,7 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Form
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Memory.Data.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Runtime.Caching.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\System.Windows.Extensions.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -278,7 +271,6 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\wi
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\obj\Debug\net8.0\ExcelUpload.csproj.AssemblyReference.cache
@@ -303,4 +295,4 @@ E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\obj\Debug\net8.0\refint\Exce
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\obj\Debug\net8.0\ExcelUpload.pdb
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\obj\Debug\net8.0\ExcelUpload.genruntimeconfig.cache
 E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\obj\Debug\net8.0\ref\ExcelUpload.dll
-E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\EPPlus.Core.Extensions.dll
+E:\filessss\excelFileUpload\ExcelUpload\ExcelUpload\bin\Debug\net8.0\ExcelDataReader.dll
