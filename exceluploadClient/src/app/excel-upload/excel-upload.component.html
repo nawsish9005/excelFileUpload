@@ -1,0 +1,74 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Excel File Upload</h2>
+  
+    <!-- File Upload Section -->
+    <div class="mb-3">
+      <label class="form-label">Upload Excel File (.xlsx)</label>
+      <input type="file" (change)="onFileSelected($event)" class="form-control" accept=".xlsx" />
+      <button class="btn btn-primary mt-2" (click)="onUpload()">Upload</button>
+    </div>
+  
+    <!-- Success/Error Messages -->
+    <div *ngIf="uploadSuccess === true" class="alert alert-success">
+      File uploaded successfully!
+    </div>
+    <div *ngIf="uploadSuccess === false" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  
+    <hr />
+  
+    <!-- Dropdown for Uploaded Files -->
+    <div class="mb-3">
+      <label class="form-label">Select Uploaded File</label>
+      <select class="form-select" [(ngModel)]="selectedFile" (change)="onFileChange()">
+        <option value="">-- Choose a file --</option>
+        <option *ngFor="let file of uploadedFiles" [value]="file">{{ file }}</option>
+      </select>
+    </div>
+  
+    <!-- Data Table -->
+    <div *ngIf="excelData.length > 0">
+      <h5>Data Preview</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Card #</th>
+              <th>Customer Name</th>
+              <th>Limit</th>
+              <th>Card Balance</th>
+              <th>Loan Balance</th>
+              <th>Total Balance</th>
+              <th>Min Due</th>
+              <th>Buckets</th>
+              <th>PGS</th>
+              <th>Customer #</th>
+              <th>Invoice #</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of excelData">
+              <td>{{ row.cardNumber }}</td>
+              <td>{{ row.customerName }}</td>
+              <td>{{ row.customerLimit }}</td>
+              <td>{{ row.cardBalance }}</td>
+              <td>{{ row.loanBalance }}</td>
+              <td>{{ row.totalBalance }}</td>
+              <td>{{ row.minDue }}</td>
+              <td>{{ row.buckets }}</td>
+              <td>{{ row.pgs }}</td>
+              <td>{{ row.customerNumber }}</td>
+              <td>{{ row.invoiceNumber }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    <!-- No data warning -->
+    <div *ngIf="selectedFile && excelData.length === 0" class="alert alert-warning">
+      No data found for selected file.
+    </div>
+  </div>
+  
