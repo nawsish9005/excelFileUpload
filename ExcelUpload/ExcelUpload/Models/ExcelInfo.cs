@@ -14,5 +14,7 @@
         public int Pgs { get; set; }
         public string CustomerNumber { get; set; }
         public string InvoiceNumber { get; set; }
+        public string SourceFile { get; set; }
+
     }
 }
